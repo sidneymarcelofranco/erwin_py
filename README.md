@@ -45,7 +45,8 @@ erwin_py/
    pip install -r requirements.txt
 
 ## Utilização
-
+instalar uv Windows - Power Shell
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 Para sincronizar com UV:
 uv sync
 
