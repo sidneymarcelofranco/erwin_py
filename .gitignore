@@ -1,0 +1,88 @@
+# Arquivos do UV (UltraViolet)
+.uv/
+.uvicorn/
+__pycache__/
+.pytest_cache/
+
+# Arquivos do Python
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Arquivos de instalação do pip
+pip-delete-this-directory.txt
+
+# Unidade de teste e relatórios de cobertura
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Traduções
+*.mo
+*.pot
+
+# Entornos virtuais
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+
+# IDE específico
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Logs e bancos de dados
+*.log
+*.sql
+*.sqlite
+
+# Arquivos de configuração local
+*.local.yml
+*.local.yaml
+*.local.json
+
+# Arquivos temporários
+*.tmp
+*.bak
+*~
