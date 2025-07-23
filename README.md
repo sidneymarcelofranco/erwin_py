@@ -6,29 +6,29 @@ Estrutura do projeto Python para integração com erwin Data Modeler.
 
 erwin_py/
 │
-├── attributes/               # Operações com atributos
-│   ├── attribute_alter.py    # Modificação de atributos
-│   ├── attribute_created.py  # Criação de atributos
-│   ├── attribute_deleted.py  # Exclusão de atributos (versão atual)
-│   ├── attribute_deleted_Old.py  # Versão legada
-│   └── attribute_read.py     # Leitura de atributos
+├── attributes/ # Operações com atributos
+│ ├── attribute_alter.py # Modificação de atributos
+│ ├── attribute_created.py # Criação de atributos
+│ ├── attribute_deleted.py # Exclusão de atributos (versão atual)
+│ ├── attribute_deleted_Old.py # Versão legada
+│ └── attribute_read.py # Leitura de atributos
 │
-├── entities/                 # Operações com entidades
-│   ├── entity_alter.py       # Modificação de entidades
-│   ├── entity_created.py     # Criação de entidades
-│   ├── entity_deleted.py     # Exclusão de entidades
-│   └── entity_read.py        # Leitura de entidades
+├── entities/ # Operações com entidades
+│ ├── entity_alter.py # Modificação de entidades
+│ ├── entity_created.py # Criação de entidades
+│ ├── entity_deleted.py # Exclusão de entidades
+│ └── entity_read.py # Leitura de entidades
 │
-├── __pycache__/              # Cache Python (ignorar)
-├── venv/                     # Ambiente virtual
+├── pycache/ # Cache Python (ignorar)
+├── venv/ # Ambiente virtual
 │
-├── .gitattributes            # Configurações do Git
-├── .gitignore                # Arquivos ignorados
-├── .python-version           # Versão Python
-├── LICENSE                   # Licença MIT
-├── pyproject.toml            # Dependências
-├── README.md                 # Documentação
-└── uv.lock                   # Lock file do UV
+├── .gitattributes # Configurações do Git
+├── .gitignore # Arquivos ignorados
+├── .python-version # Versão Python
+├── LICENSE # Licença MIT
+├── pyproject.toml # Dependências
+├── README.md # Documentação
+└── uv.lock # Lock file do UV
 
 ## Instalação
 
